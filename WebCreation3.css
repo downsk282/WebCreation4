@@ -1,0 +1,32 @@
+<style> 
+            body { 
+                margin: 0; 
+                padding: 0; 
+            } 
+  
+            ul { 
+                padding: 10px; 
+                margin: 0; 
+                position: absolute; 
+                top: 5%; 
+                left: 5%; 
+            } 
+            ul li { 
+                list-style: none; 
+                color: green; 
+                float: left; 
+                font-size: 40px; 
+                transition: 0.8s; 
+            } 
+  
+            ul:hover li { 
+                transform: rotateY(360deg); 
+            } 
+
+            #area{
+                width: 200px;
+                height: 200px;
+                background-color: #e087c1;
+              }
+
+</style>
